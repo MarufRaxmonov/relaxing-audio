@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import { readFile, writeFile } from 'node:fs/promises';
+import { readdir, readFile, stat, writeFile } from 'node:fs/promises';
+import { join } from 'node:path';
 
 const repository = process.env.GITHUB_REPOSITORY || 'MarufRaxmonov/relaxing-audio';
 const branch = process.env.AUDIO_BRANCH || process.env.GITHUB_REF_NAME || 'main';
@@ -86,22 +87,54 @@ function isManagedAudioFileName(value) {
     return /^[^/]+__[^/]+\.mp3$/i.test(String(value || '').trim());
 }
 
-const treeResponse = await githubJson(
-    `/repos/${repository}/git/trees/${encodeURIComponent(branch)}?recursive=1`
-);
+async function collectLocalAudioFiles(directory, relativeDirectory = '') {
+    let entries;
+    try {
+        entries = await readdir(directory, { withFileTypes: true });
+    } catch (error) {
+        if (!relativeDirectory && error.code === 'ENOENT') return null;
+        throw error;
+    }
 
-if (treeResponse.truncated) {
-    throw new Error('GitHub tree juda katta; audio katalogini alohida olish kerak.');
+    const files = [];
+    for (const entry of entries) {
+        const fullPath = join(directory, entry.name);
+        const relativePath = relativeDirectory
+            ? `${relativeDirectory}/${entry.name}`
+            : entry.name;
+        if (entry.isDirectory()) {
+            files.push(...await collectLocalAudioFiles(fullPath, relativePath));
+            continue;
+        }
+        if (!entry.isFile() || !/\.mp3$/i.test(entry.name)) continue;
+        files.push({
+            path: `${audioDirectory.replace(/\/+$/, '')}/${relativePath}`,
+            size: (await stat(fullPath)).size
+        });
+    }
+    return files;
 }
 
 const audioPrefix = `${audioDirectory.replace(/\/+$/, '')}/`;
-const audioFiles = (treeResponse.tree || [])
-    .filter((item) => (
-        item.type === 'blob'
-        && item.path.startsWith(audioPrefix)
-        && /\.mp3$/i.test(item.path)
-    ))
-    .sort((left, right) => left.path.localeCompare(right.path));
+let audioFiles = await collectLocalAudioFiles(audioDirectory);
+if (audioFiles === null) {
+    const treeResponse = await githubJson(
+        `/repos/${repository}/git/trees/${encodeURIComponent(branch)}?recursive=1`
+    );
+
+    if (treeResponse.truncated) {
+        throw new Error('GitHub tree juda katta; audio katalogini alohida olish kerak.');
+    }
+
+    audioFiles = (treeResponse.tree || [])
+        .filter((item) => (
+            item.type === 'blob'
+            && item.path.startsWith(audioPrefix)
+            && /\.mp3$/i.test(item.path)
+        ))
+        .map((item) => ({ path: item.path, size: item.size }))
+        .sort((left, right) => left.path.localeCompare(right.path));
+}
 
 const discoveredTracks = [];
 for (const file of audioFiles) {
