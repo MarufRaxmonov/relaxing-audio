@@ -82,6 +82,10 @@ function getAudioFileParts(path) {
     };
 }
 
+function isManagedAudioFileName(value) {
+    return /^[^/]+__[^/]+\.mp3$/i.test(String(value || '').trim());
+}
+
 const treeResponse = await githubJson(
     `/repos/${repository}/git/trees/${encodeURIComponent(branch)}?recursive=1`
 );
@@ -126,16 +130,59 @@ try {
     throw new Error(`${manifestPath} o‘qilmadi: ${error.message}`);
 }
 
-const songs = Array.isArray(manifest.songs)
+let songs = Array.isArray(manifest.songs)
     ? manifest.songs.map((song) => ({ ...song }))
     : [];
+let changed = false;
+let removedVariantCount = 0;
+let removedSongCount = 0;
+
+const discoveredFileNames = new Set(
+    discoveredTracks.map((track) => track.fileName)
+);
+
+const reconciledSongs = [];
+songs.forEach((song) => {
+    const currentVariants = Array.isArray(song.variants)
+        ? song.variants.map((variant) => ({ ...variant }))
+        : [];
+    const nextVariants = currentVariants.filter((variant) => (
+        !isManagedAudioFileName(variant?.fileName)
+        || discoveredFileNames.has(String(variant.fileName).trim())
+    ));
+    const removedCount = currentVariants.length - nextVariants.length;
+    const hadManagedVariants = currentVariants.some((variant) =>
+        isManagedAudioFileName(variant?.fileName)
+    );
+
+    if (!removedCount) {
+        reconciledSongs.push(song);
+        return;
+    }
+
+    changed = true;
+    removedVariantCount += removedCount;
+    if (!nextVariants.length && hadManagedVariants) {
+        removedSongCount += 1;
+        return;
+    }
+
+    reconciledSongs.push({
+        ...song,
+        variants: nextVariants,
+        sizeBytes: nextVariants.reduce(
+            (total, variant) => total + (Number(variant?.sizeBytes) || 0),
+            0
+        )
+    });
+});
+songs = reconciledSongs;
+
 const songIndexes = new Map();
 songs.forEach((song, index) => {
     const key = getSongKey(song);
     if (key && !songIndexes.has(key)) songIndexes.set(key, index);
 });
-
-let changed = false;
 
 for (const track of discoveredTracks) {
     let trackChanged = false;
@@ -211,5 +258,7 @@ const nextManifest = {
 
 await writeFile(manifestPath, `${JSON.stringify(nextManifest, null, 2)}\n`, 'utf8');
 console.log(
-    `${discoveredTracks.length} ta MP3 tekshirildi; ${manifestPath} yangilandi.`
+    `${discoveredTracks.length} ta MP3 tekshirildi; ` +
+    `${removedVariantCount} ta variant va ${removedSongCount} ta qo‘shiq o‘chirildi; ` +
+    `${manifestPath} yangilandi.`
 );
