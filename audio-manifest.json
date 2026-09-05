@@ -1,0 +1,481 @@
+{
+  "version": 1,
+  "repository": "https://github.com/MarufRaxmonov/relaxing-audio",
+  "updatedAt": "2026-09-05",
+  "songs": [
+    {
+      "id": "EA MUSIQA 1",
+      "name": "EA MUSIQA 1",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 1__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%201__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 1__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%201__original.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 2",
+      "name": "EA MUSIQA 2",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 2__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%202__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 2__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%202__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 2__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%202__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 3",
+      "name": "EA MUSIQA 3",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 3__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%203__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 3__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%203__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 3__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%203__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 4",
+      "name": "EA MUSIQA 4",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 4__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%204__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 4__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%204__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 4__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%204__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 5",
+      "name": "EA MUSIQA 5",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 5__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%205__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 5__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%205__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 5__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%205__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 6",
+      "name": "EA MUSIQA 6",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 6__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%206__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 6__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%206__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 6__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%206__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 7",
+      "name": "EA MUSIQA 7",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 7__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%207__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 7__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%207__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 7__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%207__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 8",
+      "name": "EA MUSIQA 8",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 8__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%208__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 8__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%208__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 8__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%208__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 9",
+      "name": "EA MUSIQA 9",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 9__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%209__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 9__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%209__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 9__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%209__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 10",
+      "name": "EA MUSIQA 10",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 10__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2010__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 10__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2010__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 10__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2010__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 11",
+      "name": "EA MUSIQA 11",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 11__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2011__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 11__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2011__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 11__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2011__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 12",
+      "name": "EA MUSIQA 12",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 12__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2012__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 12__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2012__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 12__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2012__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 13",
+      "name": "EA MUSIQA 13",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 13__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2013__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 13__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2013__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 13__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2013__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 14",
+      "name": "EA MUSIQA 14",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 14__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2014__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 14__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2014__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 14__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2014__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 15",
+      "name": "EA MUSIQA 15",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 15__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2015__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 15__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2015__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 15__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2015__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 16",
+      "name": "EA MUSIQA 16",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 16__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2016__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 16__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2016__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 16__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2016__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 17",
+      "name": "EA MUSIQA 17",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 17__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2017__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 17__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2017__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 17__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2017__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 18",
+      "name": "EA MUSIQA 18",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 18__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2018__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 18__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2018__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 18__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2018__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 19",
+      "name": "EA MUSIQA 19",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 19__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2019__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 19__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2019__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 19__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2019__stadium.mp3"
+        }
+      ]
+    },
+    {
+      "id": "EA MUSIQA 20",
+      "name": "EA MUSIQA 20",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 20__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2020__echo.mp3"
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 20__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2020__original.mp3"
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 20__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2020__stadium.mp3"
+        }
+      ]
+    }
+  ]
+}
