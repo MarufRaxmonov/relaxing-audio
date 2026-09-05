@@ -387,34 +387,6 @@
         }
       ],
       "sizeBytes": 8845056
-    },
-    {
-      "id": "EA MUSIQA 20",
-      "name": "EA MUSIQA 20",
-      "variants": [
-        {
-          "id": "echo",
-          "label": "Echo",
-          "fileName": "EA MUSIQA 20__echo.mp3",
-          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2020__echo.mp3",
-          "sizeBytes": 3791661
-        },
-        {
-          "id": "original",
-          "label": "Original",
-          "fileName": "EA MUSIQA 20__original.mp3",
-          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2020__original.mp3",
-          "sizeBytes": 3816167
-        },
-        {
-          "id": "stadium",
-          "label": "Stadium",
-          "fileName": "EA MUSIQA 20__stadium.mp3",
-          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2020__stadium.mp3",
-          "sizeBytes": 3812013
-        }
-      ],
-      "sizeBytes": 11419841
     }
   ]
 }
