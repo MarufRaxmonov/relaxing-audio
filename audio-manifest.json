@@ -555,20 +555,6 @@
         }
       ],
       "sizeBytes": 11419841
-    },
-    {
-      "id": "EA MUSIQA 21",
-      "name": "EA MUSIQA 21",
-      "variants": [
-        {
-          "id": "original",
-          "label": "Original",
-          "fileName": "EA MUSIQA 21__original.mp3",
-          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2021__original.mp3",
-          "sizeBytes": 5366217
-        }
-      ],
-      "sizeBytes": 5366217
     }
   ]
 }
