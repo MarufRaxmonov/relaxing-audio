@@ -1,0 +1,54 @@
+name: Update audio manifest
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'audio/*.mp3'
+      - 'audio/**/*.mp3'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audio-manifest-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Keep audio numbering sequential
+        run: node scripts/normalize-audio-order.mjs
+
+      - name: Synchronize audio manifest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AUDIO_BRANCH: ${{ github.ref_name }}
+        run: node scripts/update-audio-manifest.mjs
+
+      - name: Commit audio order and manifest when changed
+        run: |
+          if git diff --quiet; then
+            echo "Audio files and audio-manifest.json already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- audio audio-manifest.json
+          if [ -d lyrics ]; then git add -A -- lyrics; fi
+          git commit -m "chore: normalize audio order and manifest [audio-manifest]"
+          git push
