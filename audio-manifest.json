@@ -333,62 +333,6 @@
       "sizeBytes": 14316821
     },
     {
-      "id": "EA MUSIQA 15",
-      "name": "EA MUSIQA 15",
-      "variants": [
-        {
-          "id": "echo",
-          "label": "Echo",
-          "fileName": "EA MUSIQA 15__echo.mp3",
-          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2015__echo.mp3",
-          "sizeBytes": 3064365
-        },
-        {
-          "id": "original",
-          "label": "Original",
-          "fileName": "EA MUSIQA 15__original.mp3",
-          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2015__original.mp3",
-          "sizeBytes": 3081152
-        },
-        {
-          "id": "stadium",
-          "label": "Stadium",
-          "fileName": "EA MUSIQA 15__stadium.mp3",
-          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2015__stadium.mp3",
-          "sizeBytes": 3084717
-        }
-      ],
-      "sizeBytes": 9230234
-    },
-    {
-      "id": "EA MUSIQA 16",
-      "name": "EA MUSIQA 16",
-      "variants": [
-        {
-          "id": "echo",
-          "label": "Echo",
-          "fileName": "EA MUSIQA 16__echo.mp3",
-          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2016__echo.mp3",
-          "sizeBytes": 1880493
-        },
-        {
-          "id": "original",
-          "label": "Original",
-          "fileName": "EA MUSIQA 16__original.mp3",
-          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2016__original.mp3",
-          "sizeBytes": 1985587
-        },
-        {
-          "id": "stadium",
-          "label": "Stadium",
-          "fileName": "EA MUSIQA 16__stadium.mp3",
-          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2016__stadium.mp3",
-          "sizeBytes": 1901229
-        }
-      ],
-      "sizeBytes": 5767309
-    },
-    {
       "id": "EA MUSIQA 17",
       "name": "EA MUSIQA 17",
       "variants": [
