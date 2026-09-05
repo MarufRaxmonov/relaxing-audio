@@ -361,34 +361,6 @@
       "sizeBytes": 12478946
     },
     {
-      "id": "EA MUSIQA 18",
-      "name": "EA MUSIQA 18",
-      "variants": [
-        {
-          "id": "echo",
-          "label": "Echo",
-          "fileName": "EA MUSIQA 18__echo.mp3",
-          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2018__echo.mp3",
-          "sizeBytes": 3092781
-        },
-        {
-          "id": "original",
-          "label": "Original",
-          "fileName": "EA MUSIQA 18__original.mp3",
-          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2018__original.mp3",
-          "sizeBytes": 3109812
-        },
-        {
-          "id": "stadium",
-          "label": "Stadium",
-          "fileName": "EA MUSIQA 18__stadium.mp3",
-          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2018__stadium.mp3",
-          "sizeBytes": 3113133
-        }
-      ],
-      "sizeBytes": 9315726
-    },
-    {
       "id": "EA MUSIQA 19",
       "name": "EA MUSIQA 19",
       "variants": [
