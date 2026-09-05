@@ -278,6 +278,31 @@ for (const track of discoveredTracks) {
     }
 }
 
+function getSongOrderPart(song) {
+    const value = getSongKey(song);
+    const match = value.match(/^(.*?)(\d+)$/);
+    if (!match) return null;
+    return {
+        prefix: match[1],
+        number: Number(match[2])
+    };
+}
+
+const orderedSongs = songs
+    .map((song, index) => ({ song, index, order: getSongOrderPart(song) }))
+    .sort((left, right) => {
+        if (!left.order || !right.order) return left.index - right.index;
+        const prefixOrder = left.order.prefix.localeCompare(right.order.prefix);
+        if (prefixOrder !== 0) return prefixOrder;
+        return left.order.number - right.order.number;
+    })
+    .map(({ song }) => song);
+
+if (orderedSongs.some((song, index) => song !== songs[index])) {
+    songs = orderedSongs;
+    changed = true;
+}
+
 if (!changed) {
     console.log('audio-manifest.json allaqachon yangilangan.');
     process.exit(0);
