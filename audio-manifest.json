@@ -1,7 +1,7 @@
 {
   "version": 1,
   "repository": "https://github.com/MarufRaxmonov/relaxing-audio",
-  "updatedAt": "2026-09-05",
+  "updatedAt": "2026-09-11",
   "songs": [
     {
       "id": "EA MUSIQA 1",
@@ -366,6 +366,34 @@
         }
       ],
       "sizeBytes": 8845056
+    },
+    {
+      "id": "EA MUSIQA 14",
+      "name": "EA MUSIQA 14",
+      "variants": [
+        {
+          "id": "echo",
+          "label": "Echo",
+          "fileName": "EA MUSIQA 14__echo.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2014__echo.mp3",
+          "sizeBytes": 3194925
+        },
+        {
+          "id": "original",
+          "label": "Original",
+          "fileName": "EA MUSIQA 14__original.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2014__original.mp3",
+          "sizeBytes": 3213095
+        },
+        {
+          "id": "stadium",
+          "label": "Stadium",
+          "fileName": "EA MUSIQA 14__stadium.mp3",
+          "url": "https://raw.githubusercontent.com/MarufRaxmonov/relaxing-audio/main/audio/EA%20MUSIQA%2014__stadium.mp3",
+          "sizeBytes": 3215277
+        }
+      ],
+      "sizeBytes": 9623297
     }
   ]
 }
